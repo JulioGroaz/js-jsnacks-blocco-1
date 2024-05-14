@@ -3,8 +3,8 @@
 const numeriUtente = [];
 
 for ( i=0 ; i<6 ; i++){
-    const numeroUtente = Number.parseInt(prompt("Inserisci un numero intero"));
-    if (numeroUtente % 2 == 1){
+    const numeroUtente = Number.parseInt(prompt("Inserisci un numero intero"),10);
+    if (numeroUtente % 2 === 1){
         numeriUtente.push(numeroUtente);
         console.log(numeriUtente );
     }
