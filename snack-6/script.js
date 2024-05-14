@@ -3,3 +3,16 @@
 
 const Numeri = [1,34,55,64,7,90,2,39];
 
+let numeriPari;
+let numeriDispari;
+
+for(let i=0; i <Numeri; i++){
+    if(Numeri[i] %2 === 0){
+        numeriPari = Numeri[i];
+    } else {
+        numeriDispari = Numeri[i];
+    }
+}
+
+document.getElementById("rosso").innerHTML= numeriDispari; 
+document.getElementById("verde").innerHTML= numeriPari; 
