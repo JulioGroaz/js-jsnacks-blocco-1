@@ -5,7 +5,7 @@ const arrayDue =[777,888,2,1,4,3,5,6,29];
 
 while (arrayUno.length !== arrayDue.length){
     if(arrayUno < arrayDue){
-        arrayUno.push('X');
+        arrayUno.push(X);
     }
 }
 console.log(arrayUno);
